@@ -29,4 +29,10 @@ rosso: #b30e0e
     background-color: #e4ddd4;
 }
 
-.bomba
+.quadrato.active {
+    background-color: #159674;
+}
+
+.bomba.active {
+    background-color: #b30e0e;
+}
