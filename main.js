@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // genero 15 numeri che corrispondono all'indice dei quadrati che prenderanno la classe bomba
-    var indiciBombe = [2,5,8,3,6];
+    var indiciBombe = [];
     do {
         var numero = generaRandom(0,63);
         if (!indiciBombe.includes(numero)) {
