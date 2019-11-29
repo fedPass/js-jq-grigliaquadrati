@@ -1,0 +1,32 @@
+/*
+verde: #159674
+rosso: #b30e0e
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #14ccb4;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin-top: calc((100vh - 600px) / 2);
+    margin-left: calc((100vw - 600px) / 2);
+    padding: 15px;
+    background-color: #5b3a29;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 15px rgba(201,195,201,1);
+}
+
+.quadrato {
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+    border: 1px solid #5b3a29;
+    background-color: #e4ddd4;
+}
+
+.bomba
